@@ -1,3 +1,19 @@
+body {
+  background-image: url('taustapilt_pilved.jpg');
+}
+
+h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+p1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: darkSlateGray;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -12,9 +28,9 @@ float: left;
 
 li a {
   display: block;
-  color: white;
+  color: orange;
   text-align: center;
-  padding: 25px 220px;
+  padding: 10px 180px;
   text-decoration: none;
 }
 
