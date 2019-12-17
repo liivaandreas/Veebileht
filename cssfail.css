@@ -1,12 +1,21 @@
 body {
-  background-image: url('taustapilt_pilved.jpg');
+  background-image: url('pildid/taustapilt_pilved.jpg');
 }
 
+iframe {
+   float: center-left;
+   padding: 150px;
+}
+a {
+   font-size: 20px;
+}
 h1 {
   padding: 5px;
   text-align: center;
   font-size: 50px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: oliveDrab;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 p1 {
   text-align: center;
@@ -14,6 +23,12 @@ p1 {
   font-family: "Courier New", Courier, monospace;
   color: darkSlateGray;
 }
+
+img {
+  float: right;
+  width: 50%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
