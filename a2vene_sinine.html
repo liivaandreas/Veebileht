@@ -1,8 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 	<title>Vene sinine kass</title>
 	<link rel="stylesheet" href="cssfail.css">
 	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+         var scrollSpeed = 70;
+         var current = 0;
+         var direction = 'h';
+         function bgscroll() {
+             current -= 1;
+             $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
+
+         }
+         setInterval("bgscroll()", scrollSpeed);
+    </script>
 	</head>
 	<body>
 	
@@ -12,9 +25,9 @@
 			<li><a href="a3bengali.html">Bengali kass</a></li>
 		</ul>
 	<h1>Vene sinine kass</h1>
-	<p1>Looduslikul teel arenenud kassitõug. Paksu karvkattega ning üldiselt tagasihoidliku ja iseseisva iseloomuga.</p1>
+	<p>Looduslikul teel arenenud kassitõug. Paksu karvkattega ning üldiselt tagasihoidliku ja iseseisva iseloomuga.</p>
 	<a href="https://cattime.com/cat-breeds/russian-blue">Lisainformatisoon<br></a>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/RtI7UgN3bxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<img src="pildid/venesinine.png" alt="pilt vene sinisest kassist">
 	</body>
-<html>
+</html>

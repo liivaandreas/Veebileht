@@ -1,8 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 	<title>Bengali kass</title>
 	<link rel="stylesheet" href="cssfail.css">
 	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+         var scrollSpeed = 70;
+         var current = 0;
+         var direction = 'h';
+         function bgscroll() {
+             current -= 1;
+             $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
+
+         }
+         setInterval("bgscroll()", scrollSpeed);
+    </script>
 	</head>	
 	<body>
 	<p></p>
@@ -11,10 +24,10 @@
 			<li><a href="a1siiami.html">Siiami kass</a></li>
 			<li><a href="a2vene_sinine.html">Vene sinine kass</a></li>
 		</ul>
-	<h1>Bengali kass</h1>
-	<p1>Tugeva kehaehitusega ja välimusega, mis sarnaneb suuremate kaslastega. Aretatud välja 20.sajandi keskpaigas.</p1>
-	<a href="https://cattime.com/cat-breeds/bengal-cats#/slide/1">Lisainformatisoon<br></a>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/qOuA6yRKICo?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<img src="pildid/bengali.png" alt="pilt bengali kassist">
+		<h1>Bengali kass</h1>
+		<p>Tugeva kehaehitusega ja välimusega, mis sarnaneb suuremate kaslastega. Aretatud välja 20.sajandi keskpaigas.</p>
+		<a href="https://cattime.com/cat-breeds/bengal-cats#/slide/1">Lisainformatisoon<br></a>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qOuA6yRKICo?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<img src="pildid/bengali.png" alt="pilt bengali kassist">
 	</body>
-<html>
+</html>
